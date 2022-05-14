@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Ramdoni'),
     );
   }
 }
@@ -76,72 +76,74 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: GridView.count(
-  primary: false,
-  padding: const EdgeInsets.all(20),
-  crossAxisSpacing: 10,
-  mainAxisSpacing: 10,
-  crossAxisCount: 3,
-  children: <Widget>[
-    Container(
-      padding: const EdgeInsets.all(8),
-      color: Colors.teal[100],
-      child: const Text("one"),
-    ),
-    Container(
-      padding: const EdgeInsets.all(8),
-      color: Colors.teal[200],
-      child: const Text('Two'),
-    ),
-    Container(
-      padding: const EdgeInsets.all(8),
-      color: Colors.teal[300],
-      child: const Text('Three'),
-    ),
-    Container(
-      padding: const EdgeInsets.all(8),
-      color: Colors.teal[400],
-      child: const Text('four'),
-    ),
-    Container(
-      padding: const EdgeInsets.all(8),
-      color: Colors.teal[500],
-      child: const Text('Five'),
-    ),
-    Container(
-      padding: const EdgeInsets.all(8),
-      color: Colors.teal[600],
-      child: const Text('Six'),
-    ),
-    Container(
-      padding: const EdgeInsets.all(8),
-      color: Colors.teal[700],
-      child: const Text('Seven'),
-    ),
-    Container(
-      padding: const EdgeInsets.all(8),
-      color: Colors.teal[800],
-      child: const Text('Eight'),
-    ),
-    Container(
-      padding: const EdgeInsets.all(8),
-      color: Colors.teal[900],
-      child: const Text('Nine'),
-    ),
-    Container(
-      padding: const EdgeInsets.all(8),
-      color: Colors.lightGreen[100],
-      child: const Text('Ten'),
-    ),Container(
-      padding: const EdgeInsets.all(8),
-      color: Colors.lightGreen[200],
-      child: const Text('Eleven'),
-    ),Container(
-      padding: const EdgeInsets.all(8),
-      color: Colors.lightGreen[300],
-      child: const Text('Twelve'),
-    ),
-  ],
-),
+        primary: false,
+        padding: const EdgeInsets.all(20),
+        crossAxisSpacing: 10,
+        mainAxisSpacing: 10,
+        crossAxisCount: 3,
+        children: <Widget>[
+          Container(
+            padding: const EdgeInsets.all(8),
+            color: Colors.teal[100],
+            child: const Text("one"),
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            color: Colors.teal[200],
+            child: const Text('Two'),
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            color: Colors.teal[300],
+            child: const Text('Three'),
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            color: Colors.teal[400],
+            child: const Text('four'),
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            color: Colors.teal[500],
+            child: const Text('Five'),
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            color: Colors.teal[600],
+            child: const Text('Six'),
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            color: Colors.teal[700],
+            child: const Text('Seven'),
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            color: Colors.teal[800],
+            child: const Text('Eight'),
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            color: Colors.teal[900],
+            child: const Text('Nine'),
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            color: Colors.lightGreen[100],
+            child: const Text('Ten'),
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            color: Colors.lightGreen[200],
+            child: const Text('Eleven'),
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            color: Colors.lightGreen[300],
+            child: const Text('Twelve'),
+          ),
+        ],
+      ),
     );
   }
 }
